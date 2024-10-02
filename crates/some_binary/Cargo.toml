@@ -1,10 +1,10 @@
 [package]
-name = "bevy_editor"
+name = "some_binary"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy.workspace = true
+bevy_widgets = { path = "../bevy_widgets" }
 
 [lints]
 workspace = true

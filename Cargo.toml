@@ -5,13 +5,11 @@ publish = false
 
 [dependencies]
 bevy.workspace = true
+bevy_widgets = { path = "crates/bevy_widgets" }
+
 
 [workspace]
 members = ["crates/*"]
-
-[[bin]]
-name = "bevy_editor_standalone"
-path = "crates/bevy_editor/src/main.rs"
 
 [workspace.lints.clippy]
 doc_markdown = "warn"
